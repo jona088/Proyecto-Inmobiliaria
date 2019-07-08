@@ -1,0 +1,69 @@
+body{
+  background-color: brown;
+}
+/* div{
+  border: solid 0.4px black;
+} */
+
+.navbar{
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, .4);
+  min-height: 130px;
+}
+.nav-link{
+  font-size: 25px;
+  color: black;
+}
+.nav-link:hover{
+  text-shadow:  2px  2px rgba(0, 0, 0, .2);
+}
+.logo{
+  font-size: 30px;
+}
+#hero{
+  margin-top: 180px;
+}
+.card-header{
+  font-size: 30px;
+  color: #6e6e6e;
+}
+.contenedor{
+   margin: 0;
+}
+
+.card-viviendas{
+  border: solid 2px #808080;
+  margin-bottom: 20px;
+}
+.card-title{
+  color: #5796fa;
+  margin: 0;
+}
+.card-body{
+  padding-top: 0px;
+  padding-bottom: 8px;
+  margin: 0;
+}
+.card-text{
+  padding: 0;
+}
+.card-img-top{
+  max-height: 200px;
+}
+
+/* MEDIA QUERYES */
+
+@media (max-width: 766px){
+  #hero{
+    margin-top: 180px; 
+  }
+  .card-img-top{
+    max-height: 300px;
+    max-width: 
+  }
+  .card{
+    width: 100%;
+  }
+  .titulo-contenedor{
+    text-align: center;
+  }
+}
